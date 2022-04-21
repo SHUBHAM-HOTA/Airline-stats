@@ -1,0 +1,61 @@
+body {
+  background-color: aqua;
+}
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading h1 {
+  font-size: 60px;
+}
+
+#heading p {
+  font-size: 20px;
+}
+
+#table {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  background-color: olivedrab;
+}
+
+.hour-row {
+  background-color: skyblue;
+  pointer-events: none !important;
+}
+
+.flight-name {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
